@@ -1,0 +1,94 @@
+      *{
+margin: 0px;
+padding:0px;
+box-sizing: border-box;
+}
+
+body{
+    margin: auto;
+    max-width: 1000px;
+     padding:40px; 
+}
+p,td{
+    color:rgb(82, 81, 81);
+}
+.header{
+  margin-bottom: 30px;
+}
+
+.header h1{
+  font-size: 28px;
+  letter-spacing: 1px;
+  margin-bottom: 8px;
+  color: #029fdd;
+}
+
+.header .contact{
+  font-size: 16px;
+  color: rgb(82, 81, 81);
+}
+
+main h2{margin:20px 0px 20px 0px;
+}
+a{
+text-decoration: none;
+
+}
+ p,td {letter-spacing: 0.8px;
+    word-spacing: 1.8px;
+    line-height: 2em;
+    font-size: 1em;
+
+    }
+
+ h2{letter-spacing:1px;
+  
+        color: rgb(3, 127, 243);
+        font-weight: bolder;
+   }
+/* SECTION */
+.projects{
+  margin-top: 30px;
+}
+
+.project-name{
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-top: 15px;
+  border-radius: 6px;
+}
+
+.project-name h4{
+  margin-bottom: 8px;
+  color: #000;
+}
+
+.project-name .tech{
+  font-size: 13px;
+  color: rgb(3, 127, 243);
+  margin: 8px 0;
+}
+
+.project-name a{
+  font-size: 14px;
+  text-decoration: none;
+  color: rgb(3, 127, 243);
+}
+/*SKILLS*/
+.skills{
+  margin-top: 30px;
+}
+
+.skill-group{
+  margin-top: 10px;
+}
+
+.skill{
+  display: inline-block;
+  padding: 6px 12px;
+  margin: 6px 6px 0 0;
+  font-size: 14px;
+  background-color: #e8f4ff;
+  color: rgb(3, 127, 243);
+  border-radius: 20px;
+}
